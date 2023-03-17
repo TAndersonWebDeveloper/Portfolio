@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.linkedin {
+  color: #0072b1;
+}
+
+.github {
+  color: #171515;
+}
+
+.resume {
+  color: #666;
+}
