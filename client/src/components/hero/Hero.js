@@ -6,11 +6,11 @@ const Container = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: center;
-  background: rgb(163, 163, 224);
+  background: rgb(0, 8, 20);
   background: linear-gradient(
-    158deg,
-    rgba(163, 163, 224, 1) 35%,
-    rgba(234, 246, 249, 1) 100%
+    169deg,
+    rgba(0, 8, 20, 1) 0%,
+    rgba(0, 29, 61, 1) 68%
   );
   color: white;
 `;
@@ -27,7 +27,7 @@ const Title = styled.h1`
 `;
 
 const Name = styled.span`
-  color: #00235b;
+  color: #ffd60a;
 `;
 
 const Subtitle = styled.h2`
@@ -39,6 +39,7 @@ const ImageWrapper = styled.div`
   display: flex;
   align-content: center;
   justify-content: center;
+  filter: drop-shadow(16px -32px 0px #000);
 `;
 const Image = styled.img`
   width: 400px;
