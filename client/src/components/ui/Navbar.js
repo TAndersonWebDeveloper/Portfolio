@@ -17,23 +17,10 @@ const LinksList = styled.ul`
   height: 100%;
   width: 10%;
   margin-right: 2rem;
-  li:first-of-type {
-    color: #0072b1;
-  }
-  li:nth-of-type(2) {
-    color: #171515;
-  }
-  li:last-of-type {
-    color: #666;
-  }
-
-  li:visited {
-    color: red;
-  }
 `;
 
 const LinkItem = styled.li`
-  font-size: 1.5rem;
+  font-size: 2rem;
 `;
 
 const StyledLink = styled.a``;
