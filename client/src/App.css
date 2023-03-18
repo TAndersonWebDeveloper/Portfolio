@@ -2,19 +2,35 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgb(0, 8, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 8, 20, 1) 0%,
+    rgba(0, 29, 61, 1) 50%
+  );
 }
 
 .linkedin {
   color: #02c39a;
 }
+.linkedin:hover {
+  color: white;
+}
 
 .github {
   color: #02c39a;
+}
+.github:hover {
+  color: white;
 }
 
 .resume {
   color: #02c39a;
 }
-
-
+.resume:hover {
+  color: white;
+}

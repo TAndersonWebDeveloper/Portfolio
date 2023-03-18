@@ -36,14 +36,16 @@ const LinkItem = styled.li`
   font-size: 2rem;
 `;
 
-const StyledLink = styled.a``;
-
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
+  const StyledLink = styled.a`
+    color: #02c39a;
+  `;
+
   setTimeout(() => {
     setShow(true);
-  }, 2000);
+  }, 3000);
 
   return (
     <Container>
